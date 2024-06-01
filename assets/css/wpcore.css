@@ -1,0 +1,1048 @@
+@media only screen and (max-width: 900px) {
+
+  .columnClass {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar ul ul {
+    margin-top: 5%;
+    top: 3em;
+  }
+
+  .navbar-collapse {
+    z-index: 1;
+  }
+
+
+
+  #menu-primary-menu {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    height: 100%;
+    margin-top: 1rem !important;
+  }
+
+
+  #menu-primary-menu li {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  #menu-primary-menu ul {
+    height: 100%;
+
+  }
+
+  #menu-primary-menu ul li {
+    height: 100%;
+  }
+
+  #menu-primary-menu ul li a {
+    height: 100%;
+  }
+
+  .menuButton {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .text-align {
+    padding: 5%;
+  }
+
+  .text-align p {
+    padding-bottom: 5%;
+  }
+
+  .pageTitle {
+    align-content: center;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card-body p {
+    text-align: center;
+  }
+
+  .sub-menu {
+    display: none;
+    position: absolute;
+    width: 100% !important;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+    z-index: 999;
+  }
+
+  .sub-menu li {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar ul ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+
+    top: 3.5em;
+  }
+
+  #sort-drop-menu {
+    display: flex;
+    justify-content: center !important;
+    margin-bottom: 20px;
+    align-items: center !important;
+  }
+
+
+  .woocommerce ul.products li.product .button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
+
+
+
+
+.navbar {
+  padding: 0px !important;
+}
+
+
+/* Navbar Animation */
+.navbar-nav li a {
+  transition: transform 0.3s ease;
+  /* Specify the animation property */
+}
+
+.navbar-nav li a:hover {
+  transform: translateY(-3px);
+  /* Apply the animation effect on hover */
+}
+
+
+/* Logo placement (top/left/right) */
+
+#logo_image_top {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+#logo_image_top img {
+  width: 200px;
+}
+
+#logo_image_left img {
+  display: flex;
+  justify-content: center;
+  width: 200px
+}
+
+.cardCol {
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+.display_none {
+  display: none;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card {
+  height: 50px;
+}
+
+.columnClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardRow {
+  display: flex;
+}
+
+.card-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  max-width: 90%;
+}
+
+.card-img-top {
+  height: 50%;
+  /* Set the height to 50% of the container-fluid */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the entire space */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pageTitle {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pageTitle h1 {
+  text-align: center;
+}
+
+.cardButton {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.textContent {
+  text-align: justify;
+  font-size: 18px;
+}
+
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card-body p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.navbar ul ul {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+
+  top: 3.5em;
+}
+
+.navbar ul ul li a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar ul li:hover ul {
+  display: block !important;
+}
+
+.menu li a {
+  color: black;
+  font-weight: none;
+}
+
+
+/* CSS for Navbar */
+.menu-primary-menu-container {
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  /* padding-left: 0%;
+    padding-right: 0%; */
+}
+
+.woocommerce .products ul, .woocommerce ul.products {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none outside;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.menu-primary-menu-container ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.menu-primary-menu-container ul li a {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.menu-primary-menu-container ul li h6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#menu-primary-menu li {
+  display: flex;
+  text-decoration: none;
+}
+
+#menu-primary-menu li h6 {
+  color: black;
+
+}
+
+#searchdiv {
+  display: flex;
+  border-radius: 20px;
+  border-color: black;
+}
+
+#btnSearch {
+  border: none;
+}
+
+#searchButton {
+  border: none;
+}
+
+
+
+.border {
+  border: black;
+  border-radius: 10px;
+}
+
+
+.blockCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.padding-top-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Footer */
+
+
+
+
+.wp-block-page-list li {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+.wp-block-page-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-css {
+  display: flex;
+}
+
+.authorSingle {
+  text-align: center;
+}
+
+#archive-title {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.noPosts {
+  text-align: center;
+  font-size: 20px;
+}
+
+.archiveAuthor {
+  border-radius: 10px;
+  background: #cccccc;
+  padding: 20px;
+  width: 200px;
+  height: 100%;
+}
+
+
+.card {
+  flex: 1 0 auto;
+}
+
+
+.card a {
+  text-decoration: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.btnfullwidth {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#authorInfo {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.background-image-container-fluid {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Dark background with 0.7 opacity */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.background-image-container-fluid img {
+  width: 200px;
+  height: auto;
+  opacity: 100%;
+}
+
+.text-align {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.text-align p {
+  font-size: 24px;
+}
+
+.author_desc_post {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.author_desc_post_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.pr_title h6 {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.aboutUsContainer {
+  display: flex;
+}
+
+
+
+
+
+
+
+/* Pagination */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Optional: Add styles for previous and next links */
+.pagination .prev,
+.pagination .next {
+  margin: 0 10px;
+}
+
+.pagination .prev a,
+.pagination .next a {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.theme-main-menu {
+  display: flex;
+}
+
+.entry-content img {
+  margin: 0 0 1.5em 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.alignleft,
+img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+
+.alignright,
+img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+
+.aligncenter,
+img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
+
+.wp-caption {
+  margin-bottom: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+.wp-caption p.wp-caption-text {
+  line-height: 1.5;
+  font-size: 10px;
+  margin: 0;
+}
+
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em;
+}
+
+blockquote.left {
+  margin-right: 20px;
+  text-align: right;
+  margin-left: 0;
+  width: 33%;
+  float: left;
+}
+
+blockquote.right {
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 0;
+  width: 33%;
+  float: right;
+}
+
+
+
+/* WordPress Code */
+
+
+
+
+
+
+.gallery dl {}
+
+.gallery dt {}
+
+.gallery dd {}
+
+.gallery dl a {}
+
+.gallery dl img {}
+
+.gallery-caption {}
+
+.size-full {}
+
+.size-large {}
+
+.size-medium {}
+
+.size-thumbnail {}
+
+
+/* =============================================================================
+     WordPress CSS - Miscellaneous Styles 
+     ========================================================================== */
+
+/* ==|== category links ===================================================== */
+li.categories {}
+
+li.cat-item {}
+
+/* li.cat-item-{id} {} */
+li.current-cat {}
+
+li.current-cat-parent {}
+
+ul.children {}
+
+
+/* ==|== blogroll links ===================================================== */
+.linkcat {}
+
+.blogroll {}
+
+/* ==|== readmore links ===================================================== */
+.more-link {}
+
+
+/* =============================================================================
+     WP CSS - Page Listings 
+     ========================================================================== */
+
+.pagenav {}
+
+/* outermost list item */
+.page_item {}
+
+/* any page item */
+/* .page-item-{id} {}        specific page id */
+.current_page_item {}
+
+/* current page */
+.current_page_parent {}
+
+/* parent of current page */
+.current_page_ancestor {}
+
+/* any ancestor of current page */
+
+.pagenav ul,
+.pagenav .current_page_item ul,
+.pagenav .current_page_ancestor ul,
+.pagenav .current_page_ancestor .current_page_item ul,
+.pagenav .current_page_ancestor .current_page_ancestor ul,
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_item ul,
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_ancestor ul {}
+
+.pagenav ul ul,
+.pagenav .current_page_item ul ul,
+.pagenav .current_page_ancestor ul ul,
+.pagenav .current_page_ancestor .current_page_item ul ul,
+.pagenav .current_page_ancestor .current_page_ancestor ul ul {}
+
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_item ul ul,
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_ancestor ul ul {}
+
+
+/* =============================================================================
+     WordPress CSS - Default WordPress Widgets 
+     ========================================================================== */
+
+.widget {}
+
+/* ==|== links widget ======================================================= */
+.widget_links {}
+
+.widget_links ul {}
+
+.widget_links ul li {}
+
+.widget_links ul li a {}
+
+/* ==|== meta widget ======================================================== */
+.widget_meta {}
+
+.widget_meta ul {}
+
+.widget_meta ul li {}
+
+.widget_meta ul li a {}
+
+/* ==|== pages widget ======================================================= */
+.widget_pages {}
+
+.widget_pages ul {}
+
+.widget_pages ul li {}
+
+.widget_pages ul li a {}
+
+/* ==|== recent-posts widget ================================================ */
+.widget_recent_entries {}
+
+.widget_recent_entries ul {}
+
+.widget_recent_entries ul li {}
+
+.widget_recent_entries ul li a {}
+
+/* ==|== archives widget ==================================================== */
+.widget_archive {}
+
+.widget_archive ul {}
+
+.widget_archive ul li {}
+
+.widget_archive ul li a {}
+
+.widget_archive select {}
+
+.widget_archive option {}
+
+/* ==|== tag-cloud widget =================================================== */
+.widget_links {}
+
+/* .widget_links li:after {} */
+/* .widget_links li:before {} */
+.widget_tag_cloud {}
+
+.widget_tag_cloud a {}
+
+/* .widget_tag_cloud a:after {} */
+/* .widget_tag_cloud a:before {} */
+
+/* ==|== calendar widget ==================================================== */
+.widget_calendar {}
+
+#calendar_wrap {}
+
+#calendar_wrap th {}
+
+#calendar_wrap td {}
+
+#wp-calendar tr td {}
+
+#wp-calendar caption {}
+
+#wp-calendar a {}
+
+#wp-calendar #today {}
+
+#wp-calendar #prev {}
+
+#wp-calendar #next {}
+
+#wp-calendar #next a {}
+
+#wp-calendar #prev a {}
+
+/* ==|== category widget ==================================================== */
+.widget_categories {}
+
+.widget_categories ul {}
+
+.widget_categories ul li {}
+
+.widget_categories ul ul.children {}
+
+.widget_categories a {}
+
+.widget_categories select {}
+
+.widget_categories select#cat {}
+
+.widget_categories select.postform {}
+
+.widget_categories option {}
+
+.widget_categories .level-0 {}
+
+.widget_categories .level-1 {}
+
+.widget_categories .level-2 {}
+
+.widget_categories .level-3 {}
+
+/* ==|== recent-commments widget ============================================ */
+.recentcomments {}
+
+#recentcomments {}
+
+#recentcomments li {}
+
+#recentcomments li a {}
+
+.widget_recent_comments {}
+
+/* ==|== search widget ====================================================== */
+#searchform {}
+
+.widget_search {}
+
+.screen-reader-text {}
+
+/* ==|== text widget ======================================================== */
+.textwidget {}
+
+.widget_text {}
+
+.textwidget p {}
+
+
+/* =============================================================================
+     WP CSS - Comment Styles
+     ========================================================================== */
+
+.commentlist .reply {}
+
+.commentlist .reply a {}
+
+.commentlist .alt {}
+
+.commentlist .odd {}
+
+.commentlist .even {}
+
+.commentlist .thread-alt {}
+
+.commentlist .thread-odd {}
+
+.commentlist .thread-even {}
+
+.commentlist li ul.children .alt {}
+
+.commentlist li ul.children .odd {}
+
+.commentlist li ul.children .even {}
+
+.commentlist .vcard {}
+
+.commentlist .vcard cite.fn {}
+
+.commentlist .vcard span.says {}
+
+.commentlist .vcard img.photo {}
+
+.commentlist .vcard img.avatar {}
+
+.commentlist .vcard cite.fn a.url {}
+
+.commentlist .comment-meta {}
+
+.commentlist .comment-meta a {}
+
+.commentlist .commentmetadata {}
+
+.commentlist .commentmetadata a {}
+
+.commentlist .parent {}
+
+.commentlist .comment {}
+
+.commentlist .children {}
+
+.commentlist .pingback {}
+
+.commentlist .bypostauthor {}
+
+.commentlist .comment-author {}
+
+.commentlist .comment-author-admin {}
+
+.commentlist {}
+
+.commentlist li {}
+
+.commentlist li p {}
+
+.commentlist li ul {}
+
+.commentlist li ul.children li {}
+
+.commentlist li ul.children li.alt {}
+
+.commentlist li ul.children li.byuser {}
+
+.commentlist li ul.children li.comment {}
+
+/* .commentlist li ul.children li.depth-{id} {} */
+.commentlist li ul.children li.bypostauthor {}
+
+.commentlist li ul.children li.comment-author-admin {}
+
+#cancel-comment-reply {}
+
+#cancel-comment-reply a {}
+
+
+/* =============================================================================
+     WP CSS - body_class()
+     ========================================================================== */
+
+.rtl {}
+
+.home {}
+
+.blog {}
+
+.archive {}
+
+.date {}
+
+.search {}
+
+.paged {}
+
+.attachment {}
+
+.error404 {}
+
+/* .single postid-(id) {} */
+/*.attachmentid-(id) {} */
+/*.attachment-(mime-type) {}*/
+.author {}
+
+/*.author-(user_nicename) {}*/
+.category {}
+
+/*.category-(slug) {}*/
+.tag {}
+
+/* .tag-(slug) {} */
+.page-parent {}
+
+/* .page-child parent-pageid-(id) {} */
+/* .page-template page-template-(template file name) {} */
+.search-results {}
+
+.search-no-results {}
+
+.logged-in {}
+
+/* .paged-(page number) {}
+  .single-paged-(page number) {}
+  .page-paged-(page number) {}
+  .category-paged-(page number) {}
+  .tag-paged-(page number) {}
+  .date-paged-(page number) {}
+  .author-paged-(page number) {}
+  .search-paged-(page number) {} */
+
+
+/* =============================================================================
+     WP CSS - post_class()
+     ========================================================================== */
+
+.post-id {}
+
+.post {}
+
+.page {}
+
+.attachment {}
+
+.sticky {}
+
+.hentry {}
+
+.category-misc {}
+
+.category-example {}
+
+.tag-news {}
+
+.tag-wordpress {}
+
+.tag-markup {}
+
+.format-aside {}
+
+.format-gallery {}
+
+.format-link {}
+
+.format-image {}
+
+.format-quote {}
+
+.format-status {}
+
+.format-video {}
+
+.format-audio {}
+
+/* .format-chat {} */
